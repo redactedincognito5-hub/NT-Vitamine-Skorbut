@@ -46,11 +46,11 @@ export const S5Geschichte: React.FC = () => {
   return (
     <AbsoluteFill>
       <AbsoluteFill style={{ transform: `scale(${cam})` }}>
-        <Sky horizon={HORIZON} dawn={dawn} moonX={1500} moonY={190} moonOpacity={(1 - dawn * 0.8) * (1 - ramp(frame, tlAt - 10, 50, EASE.inOut))} />
+        <Sky horizon={HORIZON} dawn={dawn} moonX={1640} moonY={150} moonOpacity={(1 - dawn * 0.8) * (1 - ramp(frame, tlAt - 10, 50, EASE.inOut))} />
         <Ocean
           horizon={HORIZON}
           dawn={dawn}
-          moonX={1500}
+          moonX={1640}
           shimmer={(1 - dawn) * (1 - ramp(frame, tlAt - 10, 50, EASE.inOut) * 0.85)}
           insertAfterLayer={2}
           insert={

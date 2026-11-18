@@ -137,6 +137,8 @@ export const S2Vitamine: React.FC = () => {
   const leftDim = 1 - 0.65 * (ramp(frame, fatFocus, 24) - ramp(frame, waterFocus, 24));
   const rightDim = 1 - 0.65 * ramp(frame, waterFocus, 24);
   const outsideZoom = 1 - zoom;
+  /** Texte verschwinden gleich zu Beginn des Zooms (sonst werden sie riesig). */
+  const textOut = 1 - ramp(frame, zoomStart, 16, EASE.inOut);
 
   /* --- Wasserstand --- */
   const level = mix(0.78, 0.42, ramp(frame, drainStart + 10, 110, EASE.inOut));
@@ -276,11 +278,11 @@ export const S2Vitamine: React.FC = () => {
               <div style={{ position: "absolute", inset: 0, opacity: leftDim }}>
                 <Beaker top={beakerTop} bottom={beakerBottom} waterTop={waterTop} start={splitStart + 16} drain={ramp(frame, drainStart, 20) * outsideZoom} />
               </div>
-              <div style={{ position: "absolute", inset: 0, opacity: leftDim * outsideZoom }}>
+              <div style={{ position: "absolute", inset: 0, opacity: leftDim * textOut }}>
                 <SideHeader x={480} title={T.waterTitle} sub={T.waterSub} color={COLORS.blue} start={splitStart + 10} />
                 <SideNote x={480} y={880} start={waterFocus + 18} text={T.waterNote} refs={T.waterRefs} width={700} />
                 <ResultTag x={480} y={960} start={waterFocus + 110} text={T.waterResult} color={COLORS.blue} />
-                <div style={{ position: "absolute", left: 130, width: 700, top: 1012, textAlign: "center", opacity: ramp(frame, waterFocus + 140, 20) * outsideZoom }}>
+                <div style={{ position: "absolute", left: 130, width: 700, top: 1012, textAlign: "center", opacity: ramp(frame, waterFocus + 140, 20) * textOut }}>
                   <span style={{ fontFamily: FONTS.text, fontSize: 20, color: COLORS.greyDim, fontWeight: 500 }}>
                     {T.waterFootnote}
                     <Ref ids={T.waterRefs} size={0.9} style={{ verticalAlign: "baseline" }} />
@@ -289,7 +291,7 @@ export const S2Vitamine: React.FC = () => {
               </div>
 
               {/* Rechts: fettlöslich */}
-              <div style={{ position: "absolute", inset: 0, opacity: rightDim * outsideZoom }}>
+              <div style={{ position: "absolute", inset: 0, opacity: rightDim * textOut }}>
                 <SideHeader x={1440} title={T.fatTitle} sub={T.fatSub} color={COLORS.green} start={splitStart + 14} />
                 <Storage cx={1440} top={480} start={splitStart + 20} fill={ramp(frame, fatFocus + 40, 120, EASE.inOut)} />
                 <SideNote x={1440} y={880} start={fatFocus + 70} text={T.fatNote} refs={T.fatRefs} width={700} />

@@ -99,8 +99,8 @@ Ergebnis: **`out/vitamine-und-skorbut.mp4`**
 
 - Beim **ersten** Rendern lädt Remotion automatisch eine kostenlose Version von Chrome
   («Chrome Headless Shell», ca. 100 MB) herunter. Das passiert nur einmal.
-- Dauer auf einem Intel-iMac: grob **20–60 Minuten** (je nach Prozessor). In der Testumgebung
-  (4 Prozessorkerne) dauerte es rund 35 Minuten.
+- Dauer: In der Testumgebung (Linux, 4 Prozessorkerne) dauerte das Rendern **13 Minuten**.
+  Auf einem Intel-iMac rechnet mit etwa **15–60 Minuten**, je nach Prozessor (nicht auf einem Mac gemessen).
 - Schneller Testlauf in halber Auflösung: `npm run render:draft`
 
 ---
