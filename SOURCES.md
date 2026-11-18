@@ -98,7 +98,7 @@ Hinweis zur Darstellung: Die Flecken an der Figur sind **schematisch** (an den B
 | Vitamin-C-Gehalt pro 100 g: Peperoni rot 149 mg, Kiwi 75 mg, Broccoli (gedämpft) 74 mg, Orange 51 mg | [6] | Tabelle im SGE-Merkblatt (Quelle dort: Schweizer Nährwertdatenbank V7.0) |
 | Eine ausgewogene Ernährung mit frischem Obst und Gemüse beugt einem Mangel vor | [2] | *"The best way to prevent a vitamin C deficiency and get enough vitamins and minerals is to eat a healthy, balanced diet."* |
 | Referenzwert 15–17 Jahre: 90–100 mg pro Tag | [6] | Tabelle «Referenzwerte für die Nährstoffzufuhr (BLV 2022)»: 15 bis 17 Jahre: 100 bzw. 90 mg/Tag |
-| Empfindlich gegenüber Hitze und Sauerstoff – frisch ist ideal | [6], [1] | [6]: «Ist empfindlich gegenüber Hitze, Sauerstoff und Metallkontakt.» · [1]: *"Vitamin C is water soluble and susceptible to heat, so cooking can reduce the vitamin C content of food."* |
+| Empfindlich gegenüber Hitze und Sauerstoff – frisch ist ideal | [6], [1] (zusätzlich [5]) | [6]: «Ist empfindlich gegenüber Hitze, Sauerstoff und Metallkontakt.» · [1]: *"Vitamin C is water soluble and susceptible to heat, so cooking can reduce the vitamin C content of food."* · [5] sinngemäss: Die besten Vitamin-C-Quellen sind rohe bzw. ungekochte Früchte und Gemüse; Kochen und langes Lagern können den Gehalt verringern. |
 
 ---
 
