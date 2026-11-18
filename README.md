@@ -10,6 +10,15 @@ Ein Projekt von **Adem & David** · gebaut mit [Remotion](https://www.remotion.d
 | Kosten | CHF 0 – nur kostenlose Software, keine Abos, keine Cloud-Dienste |
 | Abgabe | 22. November 2026, 12:00 |
 
+## ▶ Der fertige Film
+
+**[`film/Vitamine-und-Skorbut_1080p.mp4`](film/Vitamine-und-Skorbut_1080p.mp4)** – 2:58, 1920 × 1080, 30 fps, H.264/AAC, 37 MB.
+
+Diese Fassung enthält **Musik und Soundeffekte, aber noch keine Sprachaufnahmen** – die nehmen Adem und David
+selbst auf (siehe [Sprachaufnahmen einbauen](#sprachaufnahmen-einbauen)). Danach den Film mit `npm run render`
+neu erstellen. Tipp: Neue Renderings nicht jedes Mal ins Git-Repository hochladen (grosse Dateien), sondern nur
+die Endfassung – und die alte Datei dabei ersetzen.
+
 > **KI-Hinweis:** Code, Animationen, Illustrationen, Musik und der Entwurf des Sprechertexts wurden
 > **mit KI-Unterstützung (Claude, Anthropic)** erstellt. Adem und David sind für die fachlichen
 > Erklärungen, die redaktionellen Entscheidungen, die Sprachaufnahmen und den fertigen Film
