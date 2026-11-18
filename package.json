@@ -1,0 +1,41 @@
+{
+  "name": "vitamine-und-skorbut",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vitamine & Skorbut – animierter Erklärfilm (Natur & Technik, 3. Sek). Remotion + React + TypeScript.",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "remotion studio src/index.ts",
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts VitamineSkorbut out/vitamine-und-skorbut.mp4",
+    "render:draft": "remotion render src/index.ts VitamineSkorbut out/vitamine-und-skorbut-draft.mp4 --scale=0.5 --crf=28",
+    "still": "remotion still src/index.ts VitamineSkorbut out/still.png --frame=60",
+    "frames": "node scripts/render-test-frames.mjs",
+    "typecheck": "tsc --noEmit",
+    "check:timing": "node scripts/check-timing.mjs",
+    "upgrade": "remotion upgrade",
+    "docs": "node scripts/build-docs.mjs",
+    "audio": "node scripts/generate-audio.mjs",
+    "textures": "node scripts/generate-textures.mjs"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.538",
+    "@remotion/fonts": "4.0.538",
+    "@remotion/media": "4.0.538",
+    "@remotion/noise": "4.0.538",
+    "@remotion/transitions": "4.0.538",
+    "react": "19.2.9",
+    "react-dom": "19.2.9",
+    "remotion": "4.0.538"
+  },
+  "devDependencies": {
+    "@remotion/bundler": "4.0.538",
+    "@remotion/renderer": "4.0.538",
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.7",
+    "typescript": "5.9.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

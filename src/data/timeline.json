@@ -1,0 +1,37 @@
+{
+  "_hinweis": "Szenenlängen in Sekunden. Die Gesamtlänge darf 180 s nicht überschreiten (Prüfung: npm run check:timing). Nach Änderungen ggf. npm run audio ausführen, damit die Musik wieder passt.",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "transitionFrames": 20,
+  "scenes": [
+    { "id": "hook", "title": "1 – Der Einstieg", "seconds": 15 },
+    { "id": "vitamine", "title": "2 – Was sind Vitamine?", "seconds": 39 },
+    { "id": "vitaminc", "title": "3 – Vitamin C", "seconds": 25 },
+    { "id": "skorbut", "title": "4 – Skorbut", "seconds": 34 },
+    { "id": "geschichte", "title": "5 – Die Geschichte", "seconds": 31 },
+    { "id": "praevention", "title": "6 – Vorbeugen", "seconds": 17 },
+    { "id": "schluss", "title": "7 – Schluss", "seconds": 7 },
+    { "id": "quellen", "title": "8 – Quellen & Mitwirkende", "seconds": 10 }
+  ],
+  "sfx": [
+    { "scene": "hook", "atSec": 0.3, "file": "audio/sfx/shimmer.mp3", "volume": 0.35 },
+    { "scene": "hook", "atSec": 1.0, "file": "audio/sfx/hit-soft.mp3", "volume": 0.5 },
+    { "scene": "hook", "atSec": 5.8, "file": "audio/sfx/hit-deep.mp3", "volume": 0.6 },
+    { "scene": "hook", "atSec": 9.7, "file": "audio/sfx/hit-soft.mp3", "volume": 0.5 },
+    { "scene": "hook", "atSec": 11.4, "file": "audio/sfx/whoosh-long.mp3", "volume": 0.55 },
+    { "scene": "vitamine", "atSec": 0.0, "file": "audio/sfx/whoosh.mp3", "volume": 0.35 },
+    { "scene": "vitamine", "atSec": 13.0, "file": "audio/sfx/shimmer.mp3", "volume": 0.25 },
+    { "scene": "vitamine", "atSec": 20.0, "file": "audio/sfx/whoosh.mp3", "volume": 0.3 },
+    { "scene": "vitaminc", "atSec": 0.0, "file": "audio/sfx/whoosh.mp3", "volume": 0.35 },
+    { "scene": "vitaminc", "atSec": 4.2, "file": "audio/sfx/hit-soft.mp3", "volume": 0.5 },
+    { "scene": "vitaminc", "atSec": 4.3, "file": "audio/sfx/shimmer.mp3", "volume": 0.3 },
+    { "scene": "skorbut", "atSec": 0.4, "file": "audio/sfx/hit-deep.mp3", "volume": 0.65 },
+    { "scene": "skorbut", "atSec": 30.6, "file": "audio/sfx/hit-soft.mp3", "volume": 0.45 },
+    { "scene": "geschichte", "atSec": 0.0, "file": "audio/sfx/whoosh-long.mp3", "volume": 0.4 },
+    { "scene": "praevention", "atSec": 0.2, "file": "audio/sfx/shimmer.mp3", "volume": 0.35 },
+    { "scene": "praevention", "atSec": 11.0, "file": "audio/sfx/hit-soft.mp3", "volume": 0.4 },
+    { "scene": "schluss", "atSec": 0.4, "file": "audio/sfx/hit-soft.mp3", "volume": 0.45 },
+    { "scene": "schluss", "atSec": 2.9, "file": "audio/sfx/hit-deep.mp3", "volume": 0.5 }
+  ]
+}

@@ -1,0 +1,281 @@
+{
+  "_hinweis": "Sprechertext (Entwurf, KI-unterstützt formuliert – bitte von Adem & David prüfen und in eigenen Worten anpassen). startSec = Start innerhalb der Szene. durationSec = geplante Sprechdauer (ca. 2,3 Wörter pro Sekunde). file = Dateiname OHNE Endung in public/; .mp3, .wav oder .m4a werden automatisch erkannt. Nach Änderungen: npm run docs (erzeugt NARRATION.md und Untertitel).",
+  "wordsPerSecond": 2.3,
+  "cues": [
+    {
+      "id": "01a",
+      "scene": "hook",
+      "speaker": "Adem",
+      "startSec": 1.2,
+      "durationSec": 2.4,
+      "text": "Ein einziges Vitamin.",
+      "refs": [],
+      "file": "audio/narration/01a-adem"
+    },
+    {
+      "id": "01b",
+      "scene": "hook",
+      "speaker": "Adem",
+      "startSec": 5.8,
+      "durationSec": 2.8,
+      "text": "Sein Fehlen kann tödlich sein.",
+      "refs": [
+        1,
+        2
+      ],
+      "file": "audio/narration/01b-adem"
+    },
+    {
+      "id": "01c",
+      "scene": "hook",
+      "speaker": "David",
+      "startSec": 9.9,
+      "durationSec": 4.6,
+      "text": "Warum? Die Spur führt aufs Meer – und in unseren Körper.",
+      "refs": [],
+      "file": "audio/narration/01c-david"
+    },
+    {
+      "id": "02a",
+      "scene": "vitamine",
+      "speaker": "Adem",
+      "startSec": 0.8,
+      "durationSec": 6.2,
+      "text": "Vitamine sind Stoffe, die unser Körper für normale Zellfunktionen, für Wachstum und Entwicklung braucht.",
+      "refs": [
+        4
+      ],
+      "file": "audio/narration/02a-adem"
+    },
+    {
+      "id": "02b",
+      "scene": "vitamine",
+      "speaker": "David",
+      "startSec": 7.2,
+      "durationSec": 8.0,
+      "text": "Wir brauchen nur kleine Mengen – oft nur Milligramm oder Mikrogramm pro Tag. Doch die Wirkung ist gross.",
+      "refs": [
+        3
+      ],
+      "file": "audio/narration/02b-david"
+    },
+    {
+      "id": "02c",
+      "scene": "vitamine",
+      "speaker": "Adem",
+      "startSec": 15.4,
+      "durationSec": 4.8,
+      "text": "Dreizehn Vitamine sind lebenswichtig. Man teilt sie in zwei Gruppen ein.",
+      "refs": [
+        4
+      ],
+      "file": "audio/narration/02c-adem"
+    },
+    {
+      "id": "02d",
+      "scene": "vitamine",
+      "speaker": "David",
+      "startSec": 20.8,
+      "durationSec": 7.6,
+      "text": "Die fettlöslichen Vitamine A, D, E und K speichert der Körper, zum Beispiel in Leber und Fettgewebe.",
+      "refs": [
+        4
+      ],
+      "file": "audio/narration/02d-david"
+    },
+    {
+      "id": "02e",
+      "scene": "vitamine",
+      "speaker": "Adem",
+      "startSec": 29.4,
+      "durationSec": 8.8,
+      "text": "Vitamin C und die B-Vitamine sind wasserlöslich. Der Körper speichert sie kaum – darum brauchen wir sie regelmässig.",
+      "refs": [
+        3,
+        4
+      ],
+      "file": "audio/narration/02e-adem"
+    },
+    {
+      "id": "03a",
+      "scene": "vitaminc",
+      "speaker": "David",
+      "startSec": 0.8,
+      "durationSec": 10.4,
+      "text": "Vitamin C heisst chemisch Ascorbinsäure. Anders als die meisten Tiere kann der Mensch es nicht selbst herstellen. Wir müssen es mit der Nahrung aufnehmen.",
+      "refs": [
+        1,
+        5
+      ],
+      "file": "audio/narration/03a-david"
+    },
+    {
+      "id": "03b",
+      "scene": "vitaminc",
+      "speaker": "Adem",
+      "startSec": 11.6,
+      "durationSec": 10.4,
+      "text": "Der Körper braucht Vitamin C, um Kollagen zu bilden. Dieses Eiweiss steckt in Haut, Sehnen, Bändern und Blutgefässen und ist wichtig für die Wundheilung.",
+      "refs": [
+        1,
+        5
+      ],
+      "file": "audio/narration/03b-adem"
+    },
+    {
+      "id": "03c",
+      "scene": "vitaminc",
+      "speaker": "David",
+      "startSec": 22.4,
+      "durationSec": 2.2,
+      "text": "Doch was, wenn es fehlt?",
+      "refs": [],
+      "file": "audio/narration/03c-david"
+    },
+    {
+      "id": "04a",
+      "scene": "skorbut",
+      "speaker": "Adem",
+      "startSec": 0.8,
+      "durationSec": 11.6,
+      "text": "Fehlt Vitamin C über längere Zeit, entsteht Skorbut. Wer weniger als etwa zehn Milligramm pro Tag aufnimmt, kann schon nach rund einem Monat erste Anzeichen bekommen.",
+      "refs": [
+        1,
+        2
+      ],
+      "file": "audio/narration/04a-adem"
+    },
+    {
+      "id": "04b",
+      "scene": "skorbut",
+      "speaker": "David",
+      "startSec": 13.0,
+      "durationSec": 7.4,
+      "text": "Ohne Vitamin C entsteht zu wenig Kollagen. Das Bindegewebe wird schwächer – auch die Wände feiner Blutgefässe.",
+      "refs": [
+        1,
+        5
+      ],
+      "file": "audio/narration/04b-david"
+    },
+    {
+      "id": "04c",
+      "scene": "skorbut",
+      "speaker": "Adem",
+      "startSec": 21.0,
+      "durationSec": 10.0,
+      "text": "Typisch sind Müdigkeit und Schwäche, geschwollenes und blutendes Zahnfleisch, Gelenk- und Muskelschmerzen, schlecht heilende Wunden sowie rote oder blaue Flecken auf der Haut.",
+      "refs": [
+        2
+      ],
+      "file": "audio/narration/04c-adem"
+    },
+    {
+      "id": "04d",
+      "scene": "skorbut",
+      "speaker": "David",
+      "startSec": 31.2,
+      "durationSec": 2.7,
+      "text": "Unbehandelt kann Skorbut lebensgefährlich werden.",
+      "refs": [
+        1,
+        2
+      ],
+      "file": "audio/narration/04d-david"
+    },
+    {
+      "id": "05a",
+      "scene": "geschichte",
+      "speaker": "David",
+      "startSec": 0.8,
+      "durationSec": 11.2,
+      "text": "Früher war Skorbut auf langen Seereisen gefürchtet. An Bord gab es monatelang haltbare Vorräte wie Schiffszwieback und Pökelfleisch – aber kaum frisches Obst und Gemüse.",
+      "refs": [
+        7
+      ],
+      "file": "audio/narration/05a-david"
+    },
+    {
+      "id": "05b",
+      "scene": "geschichte",
+      "speaker": "Adem",
+      "startSec": 12.4,
+      "durationSec": 3.0,
+      "text": "Die Krankheit kostete viele Seeleute das Leben.",
+      "refs": [
+        7
+      ],
+      "file": "audio/narration/05b-adem"
+    },
+    {
+      "id": "05c",
+      "scene": "geschichte",
+      "speaker": "David",
+      "startSec": 16.0,
+      "durationSec": 9.6,
+      "text": "1747 verglich der Schiffsarzt James Lind an Bord verschiedene Behandlungen. Die Männer, die Orangen und Zitronen bekamen, erholten sich fast vollständig.",
+      "refs": [
+        8
+      ],
+      "file": "audio/narration/05c-david"
+    },
+    {
+      "id": "05d",
+      "scene": "geschichte",
+      "speaker": "Adem",
+      "startSec": 26.0,
+      "durationSec": 4.4,
+      "text": "Ab 1795 gab die britische Marine offiziell Zitronensaft aus.",
+      "refs": [
+        8
+      ],
+      "file": "audio/narration/05d-adem"
+    },
+    {
+      "id": "06a",
+      "scene": "praevention",
+      "speaker": "David",
+      "startSec": 0.8,
+      "durationSec": 7.8,
+      "text": "Heute ist Skorbut bei uns selten. Viel Vitamin C steckt zum Beispiel in Peperoni, Kiwi, Broccoli und Orangen.",
+      "refs": [
+        1,
+        2,
+        6
+      ],
+      "file": "audio/narration/06a-david"
+    },
+    {
+      "id": "06b",
+      "scene": "praevention",
+      "speaker": "Adem",
+      "startSec": 9.2,
+      "durationSec": 5.4,
+      "text": "Eine ausgewogene Ernährung mit frischem Obst und Gemüse beugt einem Mangel vor.",
+      "refs": [
+        2
+      ],
+      "file": "audio/narration/06b-adem"
+    },
+    {
+      "id": "07a",
+      "scene": "schluss",
+      "speaker": "David",
+      "startSec": 0.6,
+      "durationSec": 1.6,
+      "text": "Kleines Vitamin.",
+      "refs": [],
+      "file": "audio/narration/07a-david"
+    },
+    {
+      "id": "07b",
+      "scene": "schluss",
+      "speaker": "Adem",
+      "startSec": 3.0,
+      "durationSec": 1.8,
+      "text": "Grosse Bedeutung.",
+      "refs": [],
+      "file": "audio/narration/07b-adem"
+    }
+  ]
+}
