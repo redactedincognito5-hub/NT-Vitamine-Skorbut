@@ -3,7 +3,7 @@
 **Nur eine Stilprobe (ca. 21 s).** Version 1 des Films bleibt unverändert
 (`film/Vitamine-und-Skorbut_1080p.mp4`, Komposition «VitamineSkorbut»).
 
-- Video: [`film/Stiltest-v2_Vitamin-C_Vorschau.mp4`](../film/Stiltest-v2_Vitamin-C_Vorschau.mp4)
+- Video: [`film/Stiltest-v2_Vitamin-C_Vorschau.mp4`](../film/Stiltest-v2_Vitamin-C_Vorschau.mp4) – 21 s, 1920 × 1080, 30 fps, H.264/AAC, 17 MB
 - Code: [`src/preview/`](../src/preview/) (Komposition «StilTest»)
 
 ## Inhalt der Probe
@@ -58,8 +58,9 @@ npx remotion render src/index.ts StilTest out/stiltest-v2.mp4 --codec=h264 --crf
 - **Die Orange ist stilisiert-realistisch**, kein Foto: Poren, Glanz und Saftbläschen sind prozedural. Aus der Nähe
   erkennt man, dass es eine Computergrafik ist.
 - **Kollagen ist schematisch:** Die Dreifach-Helix aus Kugeln zeigt das Prinzip, nicht die echte Atomstruktur.
-- **Renderzeit:** Die 3D-Szenen sind deutlich aufwendiger als Version 1. Würde der ganze Film so umgesetzt,
-  müsste man mit wesentlich längeren Renderzeiten rechnen.
+- **Renderzeit (gemessen in der Testumgebung, 4 Kerne, Software-Grafik):** Stiltest 21 s Film → 4,6 Minuten
+  (ca. 13 s Rechenzeit pro Filmsekunde). Version 1: 178 s Film → 13 Minuten (ca. 4,4 s pro Filmsekunde).
+  Der 3D-Stil ist also etwa **dreimal so aufwendig** zu rendern. Mit Grafikkarte (Mac) dürfte es schneller gehen – nicht gemessen.
 - Musik: Ausschnitt der bereits vorhandenen, per Code erzeugten Musik (`public/audio/music/score.mp3`, ab 0:54).
 
 ## KI-Hinweis
