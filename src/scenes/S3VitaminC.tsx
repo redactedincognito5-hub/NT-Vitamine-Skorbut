@@ -22,19 +22,19 @@ export const S3VitaminC: React.FC = () => {
   const { fps } = useVideoConfig();
 
   /* --- Zeitmarken --- */
-  const openAt = 120;
-  const titleAt = 150;
-  const liftAt = 262;
+  const openAt = 72;
+  const titleAt = 92;
+  const liftAt = 196;
   const introExit = 332;
   const collagenAt = 352;
   const meshAt = 452;
-  const questionAt = 650;
+  const questionAt = 668;
 
   /* --- Orange --- */
   const sphereIn = springAt(frame, fps, 0, SPRING.smooth);
   const sphereToSection = ramp(frame, openAt, 18, EASE.inOut);
   const explode = springAt(frame, fps, openAt + 8, { damping: 26, stiffness: 40, mass: 1.2 });
-  const drift = ramp(frame, 200, 160, EASE.soft) * 0.14;
+  const drift = ramp(frame, 150, 190, EASE.soft) * 0.14;
   const segRotation = frame * 0.004 + explode * 0.6;
   const lift = ramp(frame, liftAt, 40, EASE.inOut);
   const introOut = ramp(frame, introExit, 22, EASE.in);

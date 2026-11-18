@@ -34,9 +34,9 @@ Ablage: `public/audio/narration/`. Anleitung: [public/audio/narration/README.md]
 
 | Zeit | Sprecher | Text | Quellen | Datei |
 |---|---|---|---|---|
-| 0:54.8–1:05.2 | **David** | Vitamin C heisst chemisch Ascorbinsäure. Anders als die meisten Tiere kann der Mensch es nicht selbst herstellen. Wir müssen es mit der Nahrung aufnehmen. | [1] [5] | `03a-david` |
-| 1:05.6–1:16.0 | **Adem** | Der Körper braucht Vitamin C, um Kollagen zu bilden. Dieses Eiweiss steckt in Haut, Sehnen, Bändern und Blutgefässen und ist wichtig für die Wundheilung. | [1] [5] | `03b-adem` |
-| 1:16.4–1:18.6 | **David** | Doch was, wenn es fehlt? | – | `03c-david` |
+| 0:56.0–1:06.4 | **David** | Vitamin C heisst chemisch Ascorbinsäure. Anders als die meisten Tiere kann der Mensch es nicht selbst herstellen. Wir müssen es mit der Nahrung aufnehmen. | [1] [5] | `03a-david` |
+| 1:06.8–1:16.8 | **Adem** | Der Körper braucht Vitamin C, um Kollagen zu bilden. Dieses Eiweiss steckt in Haut, Sehnen, Bändern und Blutgefässen und hilft bei der Wundheilung. | [1] [5] | `03b-adem` |
+| 1:16.9–1:18.9 | **David** | Doch was, wenn es fehlt? | – | `03c-david` |
 
 ## 4 – Skorbut (1:19.0 – 1:53.0)
 

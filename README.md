@@ -21,12 +21,13 @@ Ein Projekt von **Adem & David** · gebaut mit [Remotion](https://www.remotion.d
 
 1. [Der Film im Überblick](#der-film-im-überblick)
 2. [Schnellstart auf dem Mac (Intel-iMac)](#schnellstart-auf-dem-mac-intel-imac)
-3. [Die wichtigsten Befehle](#die-wichtigsten-befehle)
-4. [Was ihr selbst anpassen könnt](#was-ihr-selbst-anpassen-könnt)
-5. [Sprachaufnahmen einbauen](#sprachaufnahmen-einbauen)
-6. [Projektstruktur](#projektstruktur)
-7. [Fehlerbehebung](#fehlerbehebung)
-8. [Technische Hinweise & Grenzen](#technische-hinweise--grenzen)
+3. [Checkliste bis zur Abgabe](#checkliste-bis-zur-abgabe-22112026-1200)
+4. [Die wichtigsten Befehle](#die-wichtigsten-befehle)
+5. [Was ihr selbst anpassen könnt](#was-ihr-selbst-anpassen-könnt)
+6. [Sprachaufnahmen einbauen](#sprachaufnahmen-einbauen)
+7. [Projektstruktur](#projektstruktur)
+8. [Fehlerbehebung](#fehlerbehebung)
+9. [Technische Hinweise & Grenzen](#technische-hinweise--grenzen)
 
 ---
 
@@ -101,6 +102,20 @@ Ergebnis: **`out/vitamine-und-skorbut.mp4`**
 - Dauer auf einem Intel-iMac: grob **20–60 Minuten** (je nach Prozessor). In der Testumgebung
   (4 Prozessorkerne) dauerte es rund 35 Minuten.
 - Schneller Testlauf in halber Auflösung: `npm run render:draft`
+
+---
+
+## Checkliste bis zur Abgabe (22.11.2026, 12:00)
+
+- [ ] Sprechertext in [NARRATION.md](NARRATION.md) lesen, mit den Quellen vergleichen und in eigenen Worten anpassen (in `src/data/narration.json`)
+- [ ] Offene Punkte in [SOURCES.md → «Bitte selbst prüfen»](SOURCES.md#bitte-selbst-prüfen-nicht-vollständig-belegt-oder-widersprüchlich) klären
+- [ ] Bildschirmtexte in `src/data/texts.ts` prüfen (Rechtschreibung, Inhalt)
+- [ ] Sprachaufnahmen machen und in `public/audio/narration/` ablegen
+- [ ] Im Studio (`npm run studio`) den ganzen Film mit Ton anschauen; Zeiten bei Bedarf anpassen
+- [ ] `npm run check:timing` → muss «✓ Zeitplanung in Ordnung» zeigen
+- [ ] Eigene Änderungen in [KI-HINWEIS.md](KI-HINWEIS.md) eintragen
+- [ ] `npm run render` → MP4 anschauen (Ton, Länge ≤ 3:00, Lesbarkeit)
+- [ ] **Rechtzeitig rendern** – auf einem älteren iMac kann das bis zu einer Stunde dauern
 
 ---
 

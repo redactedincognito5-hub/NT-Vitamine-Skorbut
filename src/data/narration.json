@@ -100,7 +100,7 @@
       "id": "03a",
       "scene": "vitaminc",
       "speaker": "David",
-      "startSec": 0.8,
+      "startSec": 2.0,
       "durationSec": 10.4,
       "text": "Vitamin C heisst chemisch Ascorbinsäure. Anders als die meisten Tiere kann der Mensch es nicht selbst herstellen. Wir müssen es mit der Nahrung aufnehmen.",
       "refs": [
@@ -113,9 +113,9 @@
       "id": "03b",
       "scene": "vitaminc",
       "speaker": "Adem",
-      "startSec": 11.6,
-      "durationSec": 10.4,
-      "text": "Der Körper braucht Vitamin C, um Kollagen zu bilden. Dieses Eiweiss steckt in Haut, Sehnen, Bändern und Blutgefässen und ist wichtig für die Wundheilung.",
+      "startSec": 12.8,
+      "durationSec": 10.0,
+      "text": "Der Körper braucht Vitamin C, um Kollagen zu bilden. Dieses Eiweiss steckt in Haut, Sehnen, Bändern und Blutgefässen und hilft bei der Wundheilung.",
       "refs": [
         1,
         5
@@ -126,8 +126,8 @@
       "id": "03c",
       "scene": "vitaminc",
       "speaker": "David",
-      "startSec": 22.4,
-      "durationSec": 2.2,
+      "startSec": 22.9,
+      "durationSec": 2.0,
       "text": "Doch was, wenn es fehlt?",
       "refs": [],
       "file": "audio/narration/03c-david"
