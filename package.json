@@ -7,8 +7,8 @@
   "scripts": {
     "start": "remotion studio src/index.ts",
     "studio": "remotion studio src/index.ts",
-    "render": "remotion render src/index.ts VitamineSkorbut out/vitamine-und-skorbut.mp4",
-    "render:draft": "remotion render src/index.ts VitamineSkorbut out/vitamine-und-skorbut-draft.mp4 --scale=0.5 --crf=28",
+    "render": "remotion render src/index.ts VitamineSkorbut out/vitamine-und-skorbut.mp4 --codec=h264 --crf=18 --pixel-format=yuv420p",
+    "render:draft": "remotion render src/index.ts VitamineSkorbut out/vitamine-und-skorbut-entwurf.mp4 --codec=h264 --crf=28 --pixel-format=yuv420p --scale=0.5",
     "still": "remotion still src/index.ts VitamineSkorbut out/still.png --frame=60",
     "frames": "node scripts/render-test-frames.mjs",
     "typecheck": "tsc --noEmit",

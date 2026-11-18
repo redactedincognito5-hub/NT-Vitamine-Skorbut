@@ -1,18 +1,16 @@
 /**
  * Remotion-Konfiguration – gilt für `npm run render`, `npm run studio` usw.
  * Doku: https://www.remotion.dev/docs/config
+ *
+ * Codec (H.264), Qualität (CRF 18) und Pixelformat stehen bewusst in den
+ * npm-Befehlen (package.json → "render"), damit auch reine Ton-Exporte
+ * (z. B. --codec=wav) ohne Fehlermeldung funktionieren.
  */
 import { Config } from "@remotion/cli/config";
 
 // Bildformat der Einzelbilder während des Renderns (jpeg ist schneller als png).
 Config.setVideoImageFormat("jpeg");
 Config.setJpegQuality(95);
-
-// H.264 / MP4 – läuft auf jedem Mac, PC, Smartphone und Beamer.
-Config.setCodec("h264");
-// Qualität: kleinere Zahl = bessere Qualität & grössere Datei (18 ist sehr gut).
-Config.setCrf(18);
-Config.setPixelFormat("yuv420p");
 
 // Bestehende Datei ohne Nachfrage überschreiben.
 Config.setOverwriteOutput(true);
