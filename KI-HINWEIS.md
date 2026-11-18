@@ -18,6 +18,7 @@ Verwendetes KI-Werkzeug: **Claude (Anthropic), in Claude Code**, Stand November 
 | **Entwurf** der Bildschirmtexte | `src/data/texts.ts` | Entwurf – bitte prüfen und anpassen |
 | Quellenrecherche & Zuordnung der Aussagen | `SOURCES.md`, `src/data/sources.ts` | Die Quellen wurden von der KI geöffnet und gelesen; die belegten Stellen sind wörtlich (bzw. bei MedlinePlus sinngemäss) angegeben. **Bitte jede Quelle selbst nachprüfen.** |
 | Dokumentation | `README.md`, `KI-HINWEIS.md`, READMEs in `public/audio/*` | KI-unterstützt |
+| Stiltest v2 (3D-Vorschau, ca. 21 s) | `src/preview/*`, `docs/STILTEST-V2.md`, `film/Stiltest-v2_Vitamin-C_Vorschau.mp4` | 3D-Szenen und Texturen per Code, KI-unterstützt; nur Stilprobe |
 
 ## Verantwortung von Adem & David
 

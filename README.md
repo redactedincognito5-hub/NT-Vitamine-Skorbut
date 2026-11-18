@@ -19,6 +19,10 @@ selbst auf (siehe [Sprachaufnahmen einbauen](#sprachaufnahmen-einbauen)). Danach
 neu erstellen. Tipp: Neue Renderings nicht jedes Mal ins Git-Repository hochladen (grosse Dateien), sondern nur
 die Endfassung – und die alte Datei dabei ersetzen.
 
+**Stiltest v2 (nur Vorschau, ca. 21 s):** [`film/Stiltest-v2_Vitamin-C_Vorschau.mp4`](film/Stiltest-v2_Vitamin-C_Vorschau.mp4) –
+eine mögliche neue Bildsprache (3D, ruhiger, weniger Text) am Beispiel Vitamin C → Kollagen.
+Ändert den Film nicht. Details: [docs/STILTEST-V2.md](docs/STILTEST-V2.md).
+
 > **KI-Hinweis:** Code, Animationen, Illustrationen, Musik und der Entwurf des Sprechertexts wurden
 > **mit KI-Unterstützung (Claude, Anthropic)** erstellt. Adem und David sind für die fachlichen
 > Erklärungen, die redaktionellen Entscheidungen, die Sprachaufnahmen und den fertigen Film
